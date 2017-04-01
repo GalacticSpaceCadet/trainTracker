@@ -1,0 +1,144 @@
+body{
+background:#CCCCCC;
+max-width: 100%;
+overflow-x: hidden;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+#mainTitle{
+	height: 20em;
+	width: 100%;
+	margin: 0;
+	background-image: url(../../tracks_bw.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: .5em; 
+	opacity: 0.75;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-bottom:solid 1px #f5f5f5;
+
+}
+
+
+
+.headerText{
+	text-shadow: 3px 2px 2px black;
+}
+
+#quote{
+	color: #f5f5f5;
+	font-size: 1em;
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+#logo{
+	color: #f5f5f5;
+	font-size: 4em;
+	letter-spacing: 15px;
+	margin-left: .3em;
+	font-family: 'Cinzel Decorative', cursive;
+	margin: 0;
+}
+
+
+
+
+#formBox{
+	color: #5e5d62;
+	height: 5em;
+	margin:2.5%;
+	/*display: inline-block;*/
+}
+
+
+th{
+	text-align: center;
+	color: #5E5D62 ;
+
+}
+
+td{
+	text-align: center;
+}
+
+@media(max-width:767px){
+	body{
+		font-size:1.25em;  
+	}
+	
+	#mainTitle{height: 5em;
+	width: 100%;
+	margin: 0;
+	background-image: url(../../tracks_bw.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1em; 
+	opacity: 0.6;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	}
+
+	#formBox{
+	color: #5e5d62;
+	height: 15%;
+	margin:2%;
+	display: inline;
+	}
+
+	#submit{
+	margin-top: 3.5px !important;
+	align-items: center;
+	padding: 4px;
+	font-size: 1em;
+	}
+
+	#logo{
+	color: #f5f5f5;
+	font-size: 2em;
+	letter-spacing: 15px;
+	margin-left: .3em;
+	font-family: 'Cinzel Decorative', cursive;
+	margin: 0;
+	}
+
+	#quote{
+	display: none;
+
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	#submit{
+	margin-top: .5em !important;
+	align-items: center;
+	}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+	#submit{
+	margin-top: 1.7em !important;
+	align-items: center;
+	}
+	
+}
+
+
+
